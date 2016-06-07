@@ -61,6 +61,7 @@ copyright = "&copy; Copyright notice"
     # Short subtitle/tagline. This is displayed in the header.
     subtitle = "Short subtitle/tagline of your blog"
     themecolor = "#hexcolor" # Defines the tab color in Chrome for Android.
+	mathjax = true # include the MathJax.js file to do equations
 ```
 
 ## Usage
