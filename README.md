@@ -62,6 +62,7 @@ copyright = "&copy; Copyright notice"
     subtitle = "Short subtitle/tagline of your blog"
     themecolor = "#hexcolor" # Defines the tab color in Chrome for Android.
 	mathjax = true # include the MathJax.js file to do equations
+	mathjax_inline_equations = true # allow `$ ... $` style inline for mathjax
 ```
 
 ## Usage
