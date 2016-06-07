@@ -1,6 +1,7 @@
 {{ partial "header.html" . }}
 <div class="article-list">
-  {{ range $index, $page := .Paginator.Pages }}
+  {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+  {{ range $index, $page := $paginator.Pages }}
   {{ if ne $index 0 }}
   <hr/>
   {{ end }}
@@ -9,4 +10,3 @@
 </div>
 {{ partial "pagination.html" .Paginator }}
 {{ partial "footer.html" . }}
-
